@@ -5,13 +5,9 @@ layout: home
 
 # Introducción
 
-Esta es una plantilla para la creación de colecciones culturales digitales basada en Svelte.
+Les doy la bienvenida a mi colección de cómics. Exploren libremente.
 
-Es similar a otros sistemas de computación mínima, como [Wax](https://minicomp.github.io/wax/) o [Collection Builder](https://collectionbuilder.github.io/), pero tiene como fin ser una herramienta educativa para las humanidades digitales acerca de conceptos esenciales relacionados con colecciones digitales (metadatos, ítems, protocolos, narrativas).
+## Otro título
 
-En particular, Serie Mini tiene las siguientes características:
-
-- Interfaz en español
-- Es fácil de instalar (El código está basado en Svelte, no en Jekyll. No requiere contentedores de Docker)
-- Es fácil de usar (Tiene una interfaz CLI que guía en el proceso de configuración y todos los elementos de la colección se disponen en una carpeta particular)
-- Es fácil de publicar en Github Pages por defecto
+- Elemento 1
+- Elemento 2

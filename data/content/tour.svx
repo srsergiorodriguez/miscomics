@@ -11,46 +11,28 @@ layout: page
   import VizTree from '$components/VizTree.svelte';
 </script>
 
-# Recorrido por la colección
+# Tour por la colección
 
-Esta colección de muestra recopila varias imágenes con representaciones alegóricas de América tomadas de [Rijksstudio](https://www.rijksmuseum.nl/en), la colección digital del Rijks Museum de Países Bajos. Todas las imágenes usadas están en el dominio público.
+Empecemos con una visión general de la colección...
 
-Usa este archivo para incluir contenido que permita hacer un recorrido por la colección.
+<VizTimeline dateKey="fecha"/>
 
-Para poner una imagen correspondiente a un ítem de la colección en este recorrido, usa el componente ItemPreview: 
+Vamos a empezar el tour. La primera pieza que compone esta curaduría es The Invisible...
 
-`<ItemPreview pid="PID" title="TÍTULO" alt="TEXTO ALTERNATIVO" page="PÁGINA DEL ÍTEM (opcional)">`
+<ItemPreview pid="theinvisible_lp4u32w3t0" title="La publicación The Invisible College Catalog" />
 
-Así se mostrará una imagen que, si se cliquea, te llevará al elemento de la colección correspondiente.
+Ahora pasemos a la segunda pieza que es...
 
-Así:
-
-<ItemPreview pid="AdriaenCollaert" title="Por Adriaen Collaert" />
+<ItemPreview pid="milagrossins_lp4sfoa5bk" title="Milagros" />
 
 También puedes usar urls de imágenes externas con normalidad en el formato Markdown.
 
-## Elementos interactivos
+<VizTree keys={["ciudad", "tipo_principal"]}/>
 
-## Gráfico de barras
+<audio controls>
+  <source src="test.mp3" type="audio/mpeg">
+</audio>
 
-`<VizBarChart key="columna con valor categórico" top="numero de barras con mayor conteo (opcional, por defecto 10)/>`
+asddsaads
 
-<VizBarChart key="autor"/>
-
-## Histograma
-
-`<VizBarChart key="columna con valor numérico" />`
-
-<VizHistogram key="fecha"/>
-
-## Árbol jerárquico
-
-`<VizTree key="Array con columnas con valores categóricos" metadata="metadatos prefiltrados (opcional)"/>`
-
-<VizTree keys={["autor", "label"]}/>
-
-## Línea de tiempo
-
-`<VizTimeline dateKey="columna con fecha" metadata="metadatos prefiltrados (opcional)">`
-
-<VizTimeline dateKey="fecha"/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0QWP4IZOu0I?si=NKIRZALEQhMTcG09" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

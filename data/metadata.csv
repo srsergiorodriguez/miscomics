@@ -1,5 +1,5 @@
-pid,label,autor,fecha
-AdriaenCollaert,America Tortuga,Adriaen Collaert,1586
-JohannSadeler,America Loro,Johann Sadeler,1581
-PhilipsGalle,America Composición,Philips Galle,1547
-PhilipsGalle2,America Cabeza,Philips Galle,1585
+pid,label,autores,fecha,ciudad,pais,tipo_principal,medio_impresion
+ayayaysergio_lp4u3sgcl2,Ayayay,Sergio Rodríguez Gómez,2022,Bogotá,Colombia,Cómic,Fotocopia
+milagrossins_lp4sfoa5bk,Milagros,"Sebastián Arriaga, Rafael Díaz, Sergio Rodríguez Gómez, José Sanín",2012,Bogotá,Colombia,Ilustración,Offset
+elefantesyji_lp4ufc0677,Elefantes y Jirafas,"Juan Duarte, María Vanegas, Pavel Molano, Hugo Quintero, Verónica Cháves, Sergio Rodríguez Gómez, Andrea Gaitán",2023,Bogotá,Colombia,Cómic,Offset
+theinvisible_lp4u32w3t0,The Invisible College Catalog,"Isabella Viega, Ryan Cordell, Emerson Parker Pehl, Ocean Val Arboniés Flores, D. E., Sebastián González, Bethany Anderson, Sergio Rodríguez Gómez, Lilah Leopold, Natalia Espinel",2023,Urbana,Estados Unidos,Ilustración,Fotocopia
